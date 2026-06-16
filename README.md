@@ -1,6 +1,4 @@
-好的，這是我幫你重新整理、精簡且格式完全統一的完整版 README.md 內容。
-這個版本已經將你的主資料夾與 outputs/ 目錄結構、11,946 筆有效樣本數、以及剛剛精煉過、不臃腫的研究問題全部完美整合。中英文雙語對照的排版非常專業，你可以直接整段複製到你的 GitHub 專案主頁：
-📊 YRBSS 青少年生活行為與睡眠時間之複線性迴歸分析 / Predictors of Adolescent Sleep Duration: A Multiple Linear Regression Analysis
+📊 YRBS 青少年生活行為與睡眠時間之複線性迴歸分析 / Predictors of Adolescent Sleep Duration: A Multiple Linear Regression Analysis
 👥 團隊資訊 / Group Information
 組別 / Group Number: Individual Project
 學生姓名 / Name: 謝函芸
@@ -13,6 +11,29 @@
 根據我們的 Python 資料清洗邏輯，我們從原始 YRBSS 數據中篩選出一個核心依變數與三個二分（Binary）自變數，用以探討青少年生活行為： According to our Python data cleaning logic, we selected one core dependent variable and three binary independent variables from the YRBSS dataset to explore adolescent lifestyle behaviors:
 依變數：睡眠時數 / Dependent Variable: Sleep Duration (Sleep)
 定義: 青少年每晚的平均睡眠時數（連續型變數，範圍 4 至 10 小時）。
+睡眠時間 (Sleep Duration - sleep_hours): 將原始問卷 Q97 的順序選項轉化為連續數值（Continuous Variable）：
+A (4 or less hours) 
+→
+ 4
+B (5 hours) 
+→
+ 5
+C (6 hours) 
+→
+ 6
+D (7 hours) 
+→
+ 7
+E (8 hours) 
+→
+ 8
+F (9 hours) 
+→
+ 9
+G (10 or more hours) 
+→
+ 10
+其餘缺失值、拒答皆處理為 NaN 並予以剔除。
 
 自變數一：大麻初次使用年齡 / Independent Variable 1: Marijuana Initiation (InitiationOfMarijuaUse)
 1: 曾在青少年早期或之前嘗試、使用過大麻（風險行為群體）。
