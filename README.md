@@ -82,3 +82,4 @@ $$\text{Sleep} = \beta_0 + \beta_1(\text{InitiationOfMarijuaUse}) + \beta_2(\tex
 * **English**: What is the net effect of daily television watching on adolescent sleep duration after controlling for other behavioral factors?
 * **Hypothesis**: $H_0: \beta_3 = 0 \quad \text{vs} \quad H_1: \beta_3 \neq 0$
 
+🎥 YouTube Presentation Link:https://youtu.be/PnLcTO0uav0
