@@ -1,0 +1,5 @@
+,Coefficient (Beta),Significance,Standard Error (SE),t-Statistic,p-value,Lower CI (95%),Upper CI (95%)
+Intercept,6.657,***,0.052,128.179,0.0,6.555,6.759
+InitiationOfMarijuaUse,-0.371,***,0.025,-15.11,0.0,-0.42,-0.323
+FruitEating,0.223,***,0.034,6.503,0.0,0.155,0.29
+TelevisionWatching,0.114,*,0.045,2.564,0.01,0.027,0.202
