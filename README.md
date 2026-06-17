@@ -10,7 +10,9 @@
 * **學號 / Student ID**: 113370222
 
 ---
-
+🎥 YouTube Presentation Link:https://youtu.be/PnLcTO0uav0
+🔗 Project Repository:https://github.com/t113370222/Final-Project
+---
 ## 💾 使用數據 / Dataset
 
 * **數據集名稱 / Dataset Name**: 2007 Youth Risk Behavior Surveillance System (YRBS) / 2007 年青少年危險行為調查
@@ -82,5 +84,4 @@ $$\text{Sleep} = \beta_0 + \beta_1(\text{InitiationOfMarijuaUse}) + \beta_2(\tex
 * **English**: What is the net effect of daily television watching on adolescent sleep duration after controlling for other behavioral factors?
 * **Hypothesis**: $H_0: \beta_3 = 0 \quad \text{vs} \quad H_1: \beta_3 \neq 0$
 
-🎥 YouTube Presentation Link:https://youtu.be/PnLcTO0uav0
-🔗 Project Repository:
+
